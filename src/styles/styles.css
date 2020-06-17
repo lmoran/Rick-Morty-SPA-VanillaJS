@@ -205,6 +205,30 @@ body.dark .Characters-card h3 {
   color: white;
 }
 
+/* Error404 */
+.Error404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Error-image {
+  max-width: 500px;
+}
+.Error-image img {
+  width: 100%;
+}
+.Error404 h2 {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  transition: 1s;
+}
+body.dark .Error404 h2 {
+  color: white;
+}
+
 @keyframes fade {
   0% {
     opacity: 0;
@@ -221,6 +245,9 @@ body.dark .Characters-card h3 {
   .Characters-card h3 {
     font-size: 16px;
   }
+  .Error404 h2 {
+    right: 25%;
+  }
 }
 @media screen and (max-width: 680px) {
   .Characters-card h3 {
@@ -229,6 +256,9 @@ body.dark .Characters-card h3 {
   }
   .name {
     font-size: 15;
+  }
+  .Error404 h2 {
+    right: 15%;
   }
 }
 @media screen and (max-width: 560px) {
@@ -281,6 +311,9 @@ body.dark .Characters-card h3 {
   .Characters-card {
     height: 250px;
   }
+  .Error404 h2 {
+    top: 28%;
+  }
 }
 @media screen and (max-width: 320px) {
   .Header-main {
@@ -288,5 +321,9 @@ body.dark .Characters-card h3 {
   }
   .Characters {
     grid-template-columns: 1fr;
+  }
+  .Error404 h2 {
+    font-size: 15px;
+    top: 28%;
   }
 }
