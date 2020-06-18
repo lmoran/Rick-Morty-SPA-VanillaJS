@@ -205,6 +205,18 @@ body.dark .Characters-card h3 {
   color: white;
 }
 
+/* loading */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.loading img {
+  width: 200px;
+  height: 200px;
+}
 /* Error404 */
 .Error404 {
   display: flex;
@@ -227,6 +239,39 @@ body.dark .Characters-card h3 {
 }
 body.dark .Error404 h2 {
   color: white;
+}
+/* footer */
+.Footer-pages {
+  margin-top: auto;
+}
+
+.Footer-pages h3 {
+  text-align: center;
+}
+
+body.dark .Footer-pages {
+  color: #fefefe;
+}
+
+.Footer-pages div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.Footer-pages a {
+  color: #15302c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body.dark .Footer-pages a {
+  color: #fefefe;
+}
+
+.Footer-pages a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @keyframes fade {

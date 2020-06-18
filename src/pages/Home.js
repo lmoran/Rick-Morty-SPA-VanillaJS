@@ -1,6 +1,8 @@
 import getData from '../utils/getData'
+import getHash from '../utils/getHash'
 const Home = async () => {
-  const character = await getData()
+  const page = getHash()
+  const character = await getData(page)
   const view = `
     <div class = 'Characters'>
     ${character.results
