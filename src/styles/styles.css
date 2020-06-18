@@ -206,7 +206,7 @@ body.dark .Characters-card h3 {
 }
 
 /* loading */
-.loading {
+/* .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,7 +216,7 @@ body.dark .Characters-card h3 {
 .loading img {
   width: 200px;
   height: 200px;
-}
+} */
 /* Error404 */
 .Error404 {
   display: flex;
@@ -241,7 +241,7 @@ body.dark .Error404 h2 {
   color: white;
 }
 /* footer */
-.Footer-pages {
+/* .Footer-pages {
   margin-top: auto;
 }
 
@@ -272,7 +272,7 @@ body.dark .Footer-pages a {
 .Footer-pages a:hover {
   text-decoration: underline;
   cursor: pointer;
-}
+} */
 
 @keyframes fade {
   0% {

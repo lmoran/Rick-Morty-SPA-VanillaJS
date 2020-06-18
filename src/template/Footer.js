@@ -1,4 +1,4 @@
-import getData from '../utils/getData'
+/* import getData from '../utils/getData'
 import getHash from '../utils/getHash'
 
 const Footer = async () => {
@@ -20,4 +20,4 @@ const Footer = async () => {
     `
   return view
 }
-export default Footer
+export default Footer */

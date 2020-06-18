@@ -4,19 +4,18 @@ import Error404 from '../pages/Error404'
 import Home from '../pages/Home'
 import getHash from '../utils/getHash'
 import resolveRoute from '../utils/resolveRoute'
-import Footer from '../template/Footer'
 
 const routes = {
   '/': Home,
   '/:id': Character,
-  '/contact': 'Contact',
-  '/:pages': Home
+  '/contact': 'Contact'
+  /* '/:pages': Home */
 }
 
 const Router = async () => {
   const header = null || document.getElementById('header')
   const content = null || document.getElementById('content')
-  const footer = null || document.getElementById('footer')
+  // const footer = null || document.getElementById('footer')
 
   header.innerHTML = await Header()
 
@@ -25,7 +24,7 @@ const Router = async () => {
 
   let render = routes[route] ? routes[route] : Error404
   content.innerHTML = await render()
-  footer.innerHTML = await Footer()
+  // footer.innerHTML = await Footer()
 
   const checkbox = null || document.getElementById('checkbox')
   const btnSwitch = null || document.getElementById('switch')
