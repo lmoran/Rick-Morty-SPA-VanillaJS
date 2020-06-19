@@ -2,7 +2,7 @@ const Header = () => {
   const view = `
     <div class = 'Header-main'>
       <div class = 'Header-logo'>
-          <a href = '/'>
+          <a href = 'https://lmoran.github.io/Rick-Morty-SPA-VanillaJS/'>
             <img src = 'https://i.imgur.com/rTqdCJx.png' alt="Rick and Morty"/>
           </a>
       </div>
